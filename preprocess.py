@@ -4,7 +4,6 @@ from os import listdir
 from os.path import isfile, join
 from nltk.tokenize import TweetTokenizer
 import operator
-#import random
 import torch
 from torch.utils.data import Dataset
 import copy
