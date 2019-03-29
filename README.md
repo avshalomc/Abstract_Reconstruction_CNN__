@@ -15,3 +15,8 @@ preprocess.py - tokenising 47K abstracts, creating 25k size vocabulary, saving t
 ae.py - train and eval CNN autoencoder
 
 create_reps.py - after the models are trained, creating 200 and 900 size latent representations.
+
+## OTHER
+
+.svg files - loss and eval graphs. ae_30k_50.svg is a file that shows that 50 size latent space is too small.
+index2word, word2index - are the 2 sided vocabs created during preprocess.
